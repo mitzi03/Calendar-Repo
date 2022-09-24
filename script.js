@@ -64,6 +64,7 @@ for (let hour = 9; hour < 18; hour++) {
     // save button
     let saveIcon = $('<i>');
     saveIcon.addClass("fa fa-save");
+    saveIcon.css("width","64px")
 
 
     saveDiv.append(saveIcon);
